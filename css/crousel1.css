@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.carousell {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 570px;
+  overflow: hidden;
+  /* border: 2px solid black; */
+}
+.carousel__top{
+  width: 80%;
+  height: auto;
+  /* border: 2px solid black; */
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+.carousel__top-left{
+  width: 60%;
+  height: auto;
+  /* border: 2px solid black; */
+}
+.carousel__top-left__heading{
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #008caa;
+  font-size: 3vmin;
+}
+.carousel__top-left__content{
+  color: black;
+  margin-top: 20px;
+}
+.carousel__top-right {
+    
+  width: 30%;
+  height: auto;
+  /* border: 2px solid black; */
+}
+.carousel__top-right .btn{
+  display: block;
+  color: rgba(255, 81, 0, 0.938);
+  border: 2px solid rgba(255, 81, 0, 0.938);
+  background: white ;
+  padding: 0px 40px;
+  font-size: 3vmin;
+  border-radius: 50px;
+  margin: auto;
+}
+.carousel__top-right .btn:hover{
+  color: white;
+  background-color:rgba(255, 81, 0, 0.938) ;
+}
+.carousel__bottom {
+  height: 350px;
+
+}
+.try {
+  width: 100vw;
+}
+.try > a > img {
+  height: 100vh;
+}
+.carousel {
+  width: 100vw;
+}
+.carousel .carousel-item {
+  height: auto;
+
+  opacity: 1 !important;
+  width: 350px;
+}
+.new {
+  box-shadow: 10px 10px 10px grey;
+  
+  position: relative;
+  z-index: -10;
+}
+.new > .carousel__bottom-hover {
+  position: absolute;
+  bottom: 230px;
+  
+  z-index: 10;
+  padding-left: 2rem;
+  
+}
+.carousel__bottom-hover > button {
+  border: 1px solid orangered;
+  background-color: orangered;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 25px;
+  font-size: 15px;
+  padding: 0.5rem 3rem;
+}
+.carousel__bottom-hover > div {
+  color: white;
+  width: 50%;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+
+@media(max-width:960px){
+  .carousel__top{
+      width: 80%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  .carousel__top-left{
+      width: 100%;
+      height: auto;
+      /* border: 2px solid black; */
+      margin-bottom: 20px;
+  }
+  
+  .carousel__top-right {
+      margin: 0px auto;
+      width: 50%;
+      height: auto;
+      /* border: 2px solid black; */
+  }
+  .carousel__top-right .btn{
+      color: rgba(255, 81, 0, 0.938);
+      border: 2px solid rgba(255, 81, 0, 0.938);
+      background: white ;
+      padding: 10px 50px;
+      font-size: 3vmin;
+      border-radius: 50px;
+      margin: 0px auto;
+  }
+}

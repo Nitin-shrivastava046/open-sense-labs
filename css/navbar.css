@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'poppins', sans-serif;
+}
+body{
+    background: url(/img/guitar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+}
+ul{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.container{
+    
+    width: 100%;
+}
+.navbar_list{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px ;
+    font-size: 25px;
+}
+ul li a:hover{
+    color: rgba(6, 12, 17, 0.89);
+    
+}

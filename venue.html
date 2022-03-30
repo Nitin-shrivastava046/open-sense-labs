@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venue</title>
+
+    <!-- link css -->
+    <link rel="stylesheet" href="css/venue.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+</head>
+
+<body>
+    <div class="venue">
+        <div class="left">
+            <div class="venue_heading">
+                <h1>VENUE</h1>
+            </div>
+            <div class="venue__content">
+                <div class="venue__content-one">
+                    <div class="venue__date">
+                        <div>september 18-20,2020</div>
+                        <div>
+                            <h1>captiva island</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="venue__content-two">
+                    <div class="venue__content-left">
+                        <div class="text">
+                            <h3>
+                                // Captiva Island
+                            </h3>
+                            <p>downtown fort myres <br> fort myre beach</p>
+                        </div>
+
+                    </div>
+                    <div class="venue__content-right">
+                        <button>Explore Venues</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+
+            <div class="carousel carousel-slider">
+                <a class="carousel-item" href="#one!"><img src="img/head_img1.jpg" /></a>
+                <a class="carousel-item" href="#two!"><img src="img/head_img2.jpg" /></a>
+                <a class="carousel-item" href="#three!"><img src="img/head_img3.jpg" /></a>
+                <a class="carousel-item" href="#four!"><img src="img/head_img4.jpg" /></a>
+                <a class="carousel-item" href="#five!"><img src="img/head_img5.jpg" /></a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var elems = document.querySelectorAll(".carousel");
+            M.Carousel.init(elems, {
+                fullWidth: true,
+                indicators: true,
+            });
+        });
+    </script>
+</body>
+
+</html>

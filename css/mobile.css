@@ -1,0 +1,59 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.mobile_container{
+    /* border: 2px solid black; */
+    height: 50vh;
+    width: 100%;
+    background: url(/img/mobile.bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.mobile_content{
+    
+    /* border: 2px solid white; */
+    width: 90%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.mobile_left{
+    width: 40%;
+}
+.mobile_right{
+    width: 30%;
+}
+h1{
+    font-size: 5vmin;
+    color: white;
+}
+p{
+    color: white;
+    font-size: 2vmin;
+    padding: 15px 0;
+}
+.mobile_buttons input{
+    padding: 10px 40px;
+    border-radius: 50px;
+    border:2px solid white
+}
+.btn{
+    margin-left: 50px;
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+}
+.mobile_image{
+    /* border: 2px solid white; */
+    position: absolute;
+   bottom: 0;
+   left: 50%;
+}
